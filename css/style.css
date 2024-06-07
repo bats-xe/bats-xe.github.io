@@ -115,3 +115,34 @@ footer {
     text-align: center;
     padding: 20px;
 }
+@media only screen and (max-width: 400px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .banner {
+        padding: 50px 0;
+    }
+
+    .banner h2 {
+        font-size: 24px;
+    }
+
+    .banner p {
+        font-size: 16px;
+    }
+
+    .comic-card img {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
