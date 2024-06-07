@@ -89,7 +89,7 @@ nav ul li a:hover {
 }
 
 .comic-card img {
-    width: 30%;
+    width: 20%;
     height: auto;
     display: block;
 }
@@ -97,7 +97,18 @@ nav ul li a:hover {
 .comic-details {
     padding: 10px;
 }
+.card {
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+}
+.animacion {
+    transition: transform 0.3s ease; 
+}
 
+.animacion:hover {
+    transform: scale(1.1); 
+}
 footer {
     background-color: #222222;
     color: #ffffff;

@@ -3,44 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ArkhamTales Comics</title>
+    <title>ArkhamTales</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <h1>ArkhamTales Comics</h1>
+        <h1>ArkhamTales</h1>
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Cómics</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./pag2.html">Cómics</a></li>
+                <li><a href="./pag3.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
-
+    
     <section class="banner">
-        <h2>Bienvenido a Gotham City</h2>
-        <p>Descubre la oscura y fascinante colección de cómics de ArkhamTales.</p>
-        <a href="./pag2.html" class="btn">Explora</a>
+        <h2>Bienvenido</h2>
+        <p>Descubre la oscura y fascinante colección de cómics en ArkhamTales.</p>
+        <a href="./pag2.html" class="btn">Disponibles</a>
     </section>
 
     <section class="comics">
-        <h2>Cómics Disponibles</h2>
-        <div class="comic-grid">
-            <div class="comic-card">
-                <img src="./img/batman1.jpg" alt="Batman: Año Uno">
-                <div class="comic-details">
-                    <h3>Batman: Año Uno</h3>
-                    <p>Frank Miller</p>
-                    <p>$20.00</p>
+        <h2>Nuevos Cómics Disponibles</h2>
+        <div class="row">
+            <div class="col">
+                <div class="card animacion">
+                    <img src="./img/batman1.jpg" class="card-img-top" alt="Batman: Año Uno">
+                    <div class="card-body">
+                        <h5 class="card-title">Batman: Año Uno</h5>
+                        <p class="card-text">Frank Miller</p>
+                    </div>
                 </div>
             </div>
-            <div class="comic-card">
-                <img src="./img/la-broma-asesina.jpg" alt="The Killing Joke">
-                <div class="comic-details">
-                    <h3>The Killing Joke</h3>
-                    <p>Alan Moore</p>
-                    <p>$15.00</p>
+            <div class="col">
+                <div class="card animacion">
+                    <img src="./img/la-broma-asesina.jpg" class="card-img-top" alt="The Killing Joke">
+                    <div class="card-body">
+                        <h5 class="card-title">The Killing Joke</h5>
+                        <p class="card-text">Alan Moore</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -49,5 +52,6 @@
     <footer>
         <p>&copy; 2024 ArkhamTales Comics. Todos los derechos reservados.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
