@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -118,13 +121,18 @@ footer {
 
     .comic-info {
         flex: none;
+        font-size: 10px;
     }
 
     .comic-info h2 {
-        font-size: 20px;
+        font-size: 10px;
+        font-size: 10px;
     }
 
     .comic-info p {
-        margin: 10px 0;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
     }
 }
